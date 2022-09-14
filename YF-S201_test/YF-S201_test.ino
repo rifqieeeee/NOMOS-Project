@@ -1,4 +1,4 @@
-/*YF- S201 water Flow sensor code for Arduino */
+/*YF- S201 water Flow sensor code for SenseCAP K1100 */
 const int Output_Pin = D0;
 volatile int  Pulse_Count;
 unsigned int  Liter_per_hour;
