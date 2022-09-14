@@ -22,7 +22,7 @@ void loop ()
       Loop_Time = Current_Time;
       Liter_per_hour = (Pulse_Count * 60 / 7.5);
       Pulse_Count = 0;
-      Serial.print("128 ");
+      Serial.print(Liter_per_hour, DEC);
       Serial.println(" Liter/hour");
    }
 }
